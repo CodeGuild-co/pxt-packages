@@ -2,7 +2,7 @@
  * Provides access to playing music using ABC notation
  */
 //% color=#E01818 weight=100
-namespace Song {
+namespace song {
 
     //% blockId=song_abc_music
     //% block="play|notes %musicString|at tempo %musicTempo|with standard note length 1 / %standardLength |in key %keySignature"

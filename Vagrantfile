@@ -7,19 +7,14 @@ Vagrant.configure("2") do |config|
         apt-get update
         apt-get upgrade --assume-yes
 
-        curl -sL https://deb.nodesource.com/setup_6.x | bash -
-        apt-get install --assume-yes nodejs build-essential nginx
-
+        apt-get install --assume-yes git
         apt-get autoremove --assume-yes
 
-        npm install -g pxt
+        curl -L https://get.rvm.io | bash -s stable --ruby=2.0.0
+        source /usr/local/rvm/scripts/rvm
+        gem install jekyll jekyll-theme-minimal
 
-        ln -s /vagrant/nginx.conf /etc/nginx/sites-enabled/pxt
-        rm /etc/nginx/sites-enabled/default
-        service nginx restart
-    SHELL
-    config.vm.provision "shell", privileged: false, inline: <<-SHELL
-        cd /vagrant
-        pxt target microbit
+        echo 'source /usr/local/rvm/scripts/rvm' >> /home/vagrant/.profile
+
     SHELL
 end

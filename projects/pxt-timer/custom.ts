@@ -1,4 +1,4 @@
- 
+
  /**
  * Create timers that countdown and then run code
  */
@@ -28,7 +28,7 @@ namespace timer {
             }
         }
         basic.clearScreen()
-        
+
         if (timerState && body) {
             body()
         }

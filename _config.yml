@@ -1,1 +1,18 @@
+# Jekyll Config
+safe: true
 theme: jekyll-theme-minimal
+exclude: [LICENSE, Vagrantfile, README.md]
+timezone: Europe/London
+host: 0.0.0.0
+permalink: pretty
+
+# Site Settings:
+github:
+    repository_name: pxt-packages
+    owner_name: CodeGuild-co
+    repository_url: https://github.com/CodeGuild-co/pxt-packages
+
+# Theme Config
+title: pxt-packages
+description: A collection of awesome pxt packages created by the CodeGuild
+show_downloads: true

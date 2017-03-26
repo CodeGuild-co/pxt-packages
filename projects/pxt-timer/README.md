@@ -1,21 +1,12 @@
-#Timer Documentation
+# pxt-timer
 
-Input the length of time required in minutes and seconds and watch the timer count down by turning off a LED light at regular intervals. 
-It will start when it is run in the program but it can be aborted during the timer by pressing the B button. 
+A package for using timers. For instance a countdown timer, that waits for X seconds, then executes the contained block(s).
 
-```sig
-timer.countdown(1, 30);
-```
-### Parameters 
 
-* Mins is the number of minutes for the countdown. E.g. 1, 2, 3
-* Secs is the number of seconds for the countdown. E.g. 10, 20, 30
-* Body is the function that represents all the blocks inside of the timer block
+## Improvements
 
-###Examples
+Here's a list of things that could be done to make this package better.
 
-```blocks
-timer.countdown(0, 10, () => {
-	basic.showNumber(10)
-});
-```
+- A timer that doesn't show stuff on the screen (e.g. invisible timers)
+- A block that times how long its contents take to run
+- A block that repeats its contents every X seconds
