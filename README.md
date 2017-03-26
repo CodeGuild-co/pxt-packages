@@ -86,9 +86,9 @@ Take a look at the existing projects for clues on how to format the files and wh
 
 The `custom.ts` file contains all of the TypeScript (a bit like JavaScript) code that runs the package. The contents of this file follow the [instructions](https://makecode.com/defining-blocks) provided by Microsoft on how to create custom pxt packages. This file is for developers of packages (not normally for people wanting to use the package in their own projects).
 
-The `index.md` file is used to create the webpage for the package. It should contain a link to use the package in the micro:bit online editor, as well as an online example, download links and a diary of the work that went into creating the package. This file should contain enough information for someone to start using the package in their own projects.
+The `index.md` file is used to create the webpage for the package. It should contain a link to use the package in the micro:bit online editor, as well as an online example, download links and a diary of the work that went into creating the package. This file should contain enough information for someone to start using the package in their own projects. Make sure to include a diary of the work you've done. What problems are you solving? How did you go about it? What was hard? What was fun?
 
-The `README.md` file contains any information that the package developer thought might be useful for future developers of the package (or other packages). This file is for developers of packages (not normally for people wanting to use the package in their own projects). Make sure to include a diary of the work you've done. What problems are you solving? How did you go about it? What was hard? What was fun?
+The `README.md` file contains any information that the package developer thought might be useful for future developers of the package (or other packages). This file is for developers of packages (not normally for people wanting to use the package in their own projects). Make sure to include a list of improvements, things that could be worked on to make the package better.
 
 ## Improvements
 
