@@ -9,6 +9,6 @@ You'll find links and descriptions for all of the packages that the CodeGuild ha
 
 If you'd like to jump right in and start <strong>using the packages</strong> visit the [list page](/list/) and follow the instructions.
 
-If you'd like to <strong>browse the code</strong> and see what's what, you'll find everything in our [GitHub repo](https://github.com/CodeGuild-co/pxt-packages/tree/master/projects).
+If you'd like to <strong>browse the code</strong> and see what's what, you'll find everything in our [GitHub repo](https://github.com/CodeGuild-co/pxt-packages).
 
 If you'd like to <strong>download the code</strong> then you can grab the latest release on the left-hand side of the page. Or download each package individually from its page.
